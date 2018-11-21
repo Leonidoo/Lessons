@@ -5,8 +5,6 @@ public class Lesson_2 {
 //        fun(5, 20, '+', '-');
 //        fun_1(5, '-');
 //        fun_2(10000);
-
-
         fun_5();
     }
 

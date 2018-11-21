@@ -4,13 +4,12 @@ public class Task_3061 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         int a = 1;
-        int k = 0;
         int n = s.nextInt();
 
-        do {
+        while (a < n) {
             a *= 2;
-            k++;
-        } while (a < n);
-        System.out.println(k);
+        }
+
+        System.out.println((a == n)? "YES" : "NO");
     }
 }
