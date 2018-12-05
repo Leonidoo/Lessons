@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Task_112193 {
     static long lcm(long a, long b){
-        return a * b / gcd(a,b);
+        return a / gcd(a,b) * b;
     }
 
     static long gcd(long a, long b){
@@ -12,6 +12,6 @@ public class Task_112193 {
 
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
-        System.out.println(lcm(s.nextInt(), s.nextInt()));
+        System.out.println(gcd(s.nextInt(), s.nextInt()));
     }
 }
